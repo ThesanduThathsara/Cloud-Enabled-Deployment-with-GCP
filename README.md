@@ -38,7 +38,6 @@ To deploy backend services on GCP, update the `application-gcp.properties` file 
 
 **Typical changes include:**
 - GCP Cloud SQL instance details
-- GCP project ID
 - Credentials and connection strings
 
 **Example:**
@@ -46,7 +45,7 @@ To deploy backend services on GCP, update the `application-gcp.properties` file 
 ```properties
 spring.datasource.host= <The public IP address of your Cloud SQL instance>
 spring.datasource.port= <The port your MySQL instance listens on (default: 3306)>
-spring.datasource.url= <defines the JDBC connection string used by Spring Boot to connect to your GCP-hosted Cloud SQL database.>
+spring.datasource.url= <Add your Public IP address>
 spring.datasource.username= <Your Cloud SQL username>
 spring.datasource.password= <Your Cloud SQL password>
 ```
