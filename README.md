@@ -3,6 +3,12 @@
 This guide provides step-by-step instructions for setting up and running the frontend application, running backend microservices, and updating configuration files for Google Cloud Platform (GCP) deployment.
 
 ---
+## Student Information
+
+- **Name:** Thesandu Thathsara
+- **Student Registration Number:** 2301671131
+- **Email Address:** thesandu1602500@gmail.com
+---
 
 ## How This Project Works: Video Overview
 
